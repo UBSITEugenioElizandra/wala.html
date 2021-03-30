@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+  }
+  div {
+      padding: 10px;
+      margin: 30px;
+      background-color: #333;
+  }
+.hed {
+    border: none;
+}
+  body {
+    margin: 0;
+    background-color: rgb(17, 16, 16);
+  }
+  
+  /* Style the header */
+  header {
+    background-image: url("image/bci.png");
+    padding: 20px;
+    text-align: center;
+    width: 20%;
+    margin: 20px;
+    border-color: rgb(136, 67, 136);
+    border-style: solid;
+    float: left;
+  }
+  /* Style the top navigation bar */
+  nav.nav {
+    flow: left;
+    overflow: hidden;
+    background-color:  rgb(226, 178, 248);
+    width:60%;
+    padding-left: 20px;
+    font-family: "Georgia";
+  
+  }
+  
+  /* Style the topnav links */
+  nav a {
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  nav a:hover {
+    background-color: #333;
+    color: black;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  section {
+  
+    float: none;
+    width: 90%;
+    padding: 15px;
+    clear: both;
+    margin: 20px;
+  
+  }
+p {
+  color: black;
+  text-shadow: 0 0 20px #fa77ff;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 10px #ff8bef;
+  font-size: 35px;
+  font-family: "Papyrus";
+}
+h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 10px #db9eff;
+  font-family: "Papyrus";
+  font-size: 25px;
+}
+h3 {
+  color:  rgb(0, 0, 0);
+  text-shadow: 0 0 3px #ff9bfa;
+  font-family: "Papyrus";
+  font-size: 18px;
+}
+li {
+  font-size: 10px;
+  font-family: georgia;
+}
+  #CH{
+       background-image: url("image/chi.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 250px;
+  }
+  
+  #HPS{
+       background-image: url("image/hps.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 250px;
+  }
+  
+  #DRAW{
+       background-image: url("image/draw.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 250px;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    section {
+      width: 100%;
+    }
+  }
+  
+  footer {
+    background-color: rgb(226, 178, 248);
+    padding: 20px;
+    text-align: left;
+    border-color: rgb(136, 67, 136);
+    border-style: solid;
+    margin: 30px;
+  }
+  article{
+  clear: both;
+  border-color:rgb(136, 67, 136);
+  border-style: solid;
+  padding: 50px;
+  margin: 30px;
+  background-color: rgb(70, 70, 70);
+  }
+</style>
+</head>
+</html>
